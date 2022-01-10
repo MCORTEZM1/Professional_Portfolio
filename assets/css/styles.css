@@ -2,7 +2,6 @@
     --primary-color: #08151a;
     --seconday-color: #9ccadf;
     --tertiary-color: #c5dbff5e;
-    --primary-font: sans-serif;
 }
 * {
     margin: 0;
@@ -10,13 +9,16 @@
     box-sizing: border-box;
   }
 /* Begin header style */
+body {
+    background-color: var(--tertiary-color);
+    font-family: sans-serif;
+}
 header {
     background-color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    font-family: var(--primary-font);
 }
 header h1 {
     color: var(--primary-color);
@@ -53,7 +55,6 @@ header nav ul li a {
     background-image: url("../images/abstract-1641538827376-555.jpg");
     background-size: cover;
     background-position: 65%;
-    font-family: var(--primary-font);
     font-size: 20px;
     padding: 100px 60px 15px 100px;
     display: flex;
@@ -76,25 +77,20 @@ section.hero {
     font-weight: bold;
     border-right: 3px solid var(--primary-color);
     padding-right: 10px;
-    padding-left: 10%;
 }
-.content {
-    background-color: var(--tertiary-color);
+/* begin about me style */
+.about-me {
+    color: var(--primary-color);
     display: flex;
     justify-content: start;
     align-items: center;
-    font-family: var(--primary-font);
-    color: var(--primary-color);
+    padding: 20px 50px 40px 200px;
 }
-/* begin about me style */
-#about-me {
-    padding: 20px 50px 40px 0;
-}
-#about-me h2 {
+.about-me h2 {
     align-items: center;
     padding-bottom: 80px;
 }
-#about-me div {
+.about-me div {
     padding-left: 2%;
     font-weight: lighter;
     font-size: 1.3em; 
@@ -103,17 +99,51 @@ section.hero {
 /* End about me style */
 
 /* Begin projects style */
-#projects {
-    padding: 0 50px;
+.projects {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 158px;
 }
-#projects h2 {
-    padding-bottom: 500px;
-    width: 264px;
+.projects h2 {
+    padding-bottom: 90%;
+}
+.project-card {
+    margin:0 0 15px 2%;
+    flex-wrap: wrap;    
+
+}
+.container {
+    padding-right: 80px;
+    
+}
+.project-title {
+    color: var(--primary-color);
+    background-color: var(--seconday-color);
+    padding: 5px 5px;
+    width: 150px;
+    height: 60px;
+}
+.project-card img {
+    max-width: 100%;
+    max-height: 80%;
+    border: 3px solid var(--seconday-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#project-1 .project-title{
+    position: relative;
+    bottom: 150px;
 }
 
 /* Begin footer style */
 footer {
-    padding: 40px 380px 20px 0;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px 380px 20px 167px;
 }
 footer div {
     padding-left: 70px;
