@@ -1,7 +1,7 @@
 :root {
     --primary-color: #08151a;
     --seconday-color: #9ccadf;
-    --tertiary-color: #c5dbff5e;
+    --tertiary-color: #c5dbff48;
     --no-hover-color: rgba(75, 105, 133, .8);
     --hover-color: rgba(75, 105, 133, .5);
 }
@@ -103,9 +103,9 @@ section.hero {
 /* Begin projects style */
 .container {
     padding-right: 80px;
-    padding-left: 40px;
+    padding-left: 35px;
     width: 2120px;
-    height: 1550px;
+    height: 1070px;
 }
 .container a {
     text-decoration: none;
@@ -118,7 +118,10 @@ section.hero {
     padding-left: 158px;
 }
 .projects h2 {
-    padding-bottom: 90%;
+    padding-bottom: 1030px;
+    position: relative;
+    bottom: 17px;
+    margin-top: 25px;
 }
 .project-card {
     margin:0 0 15px 2%;
@@ -154,7 +157,7 @@ section.hero {
     text-align:center; 
     overflow:hidden; 
     height:500px; 
-    width:100%;
+    width:1437px;
     border: 3px solid var(--seconday-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding-bottom: 3px;
@@ -167,6 +170,7 @@ section.hero {
     margin-left:-726px;
 }
 .title1 {
+    text-align: left;
     position: relative;
     bottom: -82%;
     z-index: 9999;
@@ -176,19 +180,104 @@ section.hero {
     width: 150px;
     height: 60px;
 }
-/* End project-1 style */
 
-
+.halfcards {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.project-2 {
+    position:relative; 
+    text-align:center; 
+    overflow:hidden; 
+    height: 250px;
+    width: 708.5px;
+    margin-right: 20px;
+    border: 3px solid var(--seconday-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+.project-2 img {
+    position:absolute; 
+    top: -200px;
+    left:50%; 
+    margin-left:-726px;
+}
+.title2-5 {
+    text-align: left;
+    position: relative;
+    bottom: -63%;
+    z-index: 9999;
+    color: var(--primary-color);
+    background-color: var(--seconday-color);
+    padding: 5px 5px;
+    width: 150px;
+    height: 60px;
+}
+.project-3 {
+    position:relative; 
+    text-align:center; 
+    overflow:hidden; 
+    height: 250px;
+    width: 708.5px;
+    border: 3px solid var(--seconday-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+.project-3 img {
+    position:absolute; 
+    top: -200px;
+    left:50%; 
+    margin-left:-726px;
+}
+.project-4 {
+    position:relative; 
+    text-align:center; 
+    overflow:hidden; 
+    height: 250px;
+    width: 708.5px;
+    margin-right: 20px;
+    border: 3px solid var(--seconday-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+.project-4 img {
+    position:absolute; 
+    top: -150px;
+    margin-left:-300px;
+    zoom: 125%;
+}
+.project-5 {
+    position:relative; 
+    text-align:center; 
+    overflow:hidden; 
+    height: 250px;
+    width: 708.5px;
+    border: 3px solid var(--seconday-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+.project-5 img {
+    position:absolute; 
+    top: -200px;
+    left:50%; 
+    margin-left:-500px;
+}
 /* Begin footer style */
 footer {
     color: var(--primary-color);
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 40px 380px 20px 167px;
+    padding: 20px 380px 20px 167px;
 }
 footer div {
-    padding-left: 70px;
+    padding-left: 180px;
 }
 footer ul {
     margin: 20px 0 25px 0;
