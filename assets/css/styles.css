@@ -316,17 +316,16 @@ footer ul li {
         flex-direction: column;
         width: 192%;
     }
-      header h1 {
+    header h1 {
         font-size: 60px;
         width: 100%;
         text-align: center;
     }
-      header nav ul {
+    header nav ul {
         margin-top: 20px;
-        width: 100%;
-        
+        width: 100%; 
     }
-      header nav ul li a {
+    header nav ul li a {
         position: relative;
         bottom: 20px;
         font-size: 45px;
@@ -347,6 +346,7 @@ footer ul li {
     }
     .about-me {
         width: 192%;
+        font-size: 20;
     }
     .me {
         position: absolute;
@@ -360,9 +360,55 @@ footer ul li {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        width: 245%;
+    }
+    .hero {
+        width: 245%;
+    }
+    .about-me div {
+        font-size: 29px;
+        line-height: 35px;
+    }
+    section.hero {
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    section.hero h1 {
+        font-size: 60px;
 
+    }
+    .about-me {
+        width: 245%;
+    }
+    .about-me h2 {
+        padding-bottom: 250px;
+    }
 }
 
 @media screen and (max-width: 575px) {
+    header {
+        width: 327%;
+    }
+    .hero {
+        width: 327%;
+    }
+    .about-me div {
+        font-size: 29px;
+        line-height: 35px;
+    }
+    section.hero {
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    section.hero h1 {
+        font-size: 60px;
 
+    }
+    .about-me {
+        width: 327%;
+    }
+    .about-me h2 {
+        padding-bottom: 250px;
+    }
 }
