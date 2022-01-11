@@ -88,6 +88,15 @@ section.hero {
     align-items: center;
     padding: 20px 50px 40px 200px;
 }
+.me {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 258px;
+    left: 50px;
+
+}
 .about-me h2 {
     align-items: center;
     padding-bottom: 80px;
@@ -95,8 +104,8 @@ section.hero {
 .about-me div {
     padding-left: 2%;
     font-weight: lighter;
-    font-size: 1.3em; 
-    line-height: 1.2vw;
+    font-size: 20px; 
+    line-height: 23px;
 }
 /* End about me style */
 
@@ -180,7 +189,9 @@ section.hero {
     width: 150px;
     height: 60px;
 }
-
+.title1 h3 {
+    padding: 5px 0;
+}
 .halfcards {
     max-width: 100%;
     width: 100%;
@@ -215,6 +226,9 @@ section.hero {
     padding: 5px 5px;
     width: 150px;
     height: 60px;
+}
+.title2-5 h3 {
+    padding: 5px 0
 }
 .project-3 {
     position:relative; 
@@ -293,3 +307,4 @@ footer ul li {
     border-bottom: 3px solid var(--primary-color);
 }
 /* End footer style */
+/* begin media queries */
