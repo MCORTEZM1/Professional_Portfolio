@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #08151a;
+    --seconday-color: #9ccadf;
+    --tertiary-color: #c5dbff48;
+    --no-hover-color: rgba(75, 105, 133, .8);
+    --hover-color: rgba(75, 105, 133, .5);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* Begin header style */
+body {
+    background-color: var(--tertiary-color);
+    font-family: sans-serif;
+}
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    color: var(--primary-color);
+    background-color: var(--seconday-color);
+    width: 287px;
+    padding: 3px 3px 3px 55px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+header nav {
+    padding: 0px 40px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 500px;
+}
+header ul li {
+    list-style: none;
+
+}
+header nav ul li a {
+    padding: 0 8px;
+    font-weight: lighter;
+    font-size: 20px;
+    color: var(--seconday-color);
+    text-decoration: none;
+    border-bottom: solid 3px var(--seconday-color);
+}
+/* End header style */
+/* Begin hero style */
+.hero {
+    background-image: url("../images/abstract-1641538827376-555.jpg");
+    background-size: cover;
+    background-position: 65%;
+    font-size: 20px;
+    padding: 100px 60px 15px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section.hero {
+    justify-content: right;
+}
+.hero h1 {
+    color: var(--primary-color);
+    background-color: var(--seconday-color);
+    padding: 5px 5px;
+}
+.border-text {
+    text-align: right;
+    font-size: 2.5em;
+    font-weight: bold;
+    border-right: 3px solid var(--primary-color);
+    padding-right: 10px;
+}
+article {
+    width: 100%;
+    font-size: 250px;
+    display: flex;
+}
+article p {
+    justify-content: center;
+}
+footer {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 380px 20px 167px;
+}
+footer div {
+    padding-left: 180px;
+}
+footer ul {
+    margin: 20px 0 25px 0;
+    display: flex;
+}
+footer ul li {
+    line-height: 1.3vw;
+    list-style: none;
+    padding: 0 10px;
+    margin: 0 50px 0 50px;
+    font-weight: bolder;
+    font-size: 1.3em; 
+    border-bottom: 3px solid var(--primary-color);
+}
