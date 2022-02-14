@@ -161,13 +161,16 @@ section.hero {
     transition: 250ms;
     background: var(--hover-color);
 }
+.project-links{
+    font-size: small;
+}
 /* begin project 1 card style */
 .project-1 {
     position:relative; 
     text-align:center; 
     overflow:hidden; 
     height:500px; 
-    width:1437px;
+    width:100%;
     border: 3px solid var(--seconday-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding-bottom: 3px;
@@ -179,6 +182,7 @@ section.hero {
     left:50%; 
     margin-left:-726px;
 }
+
 .title1 {
     text-align: left;
     position: relative;

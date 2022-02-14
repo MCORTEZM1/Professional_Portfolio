@@ -15,41 +15,34 @@ body {
     background-color: var(--tertiary-color);
     font-family: sans-serif;
 }
-header {
-    background-color: var(--primary-color);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-header h1 {
-    color: var(--primary-color);
-    background-color: var(--seconday-color);
-    width: 287px;
-    padding: 3px 3px 3px 55px;
-    margin-top: 3px;
-    margin-bottom: 15px;
-}
+
 header nav {
     padding: 0px 40px;
 }
-header nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    width: 500px;
-}
-header ul li {
-    list-style: none;
+#name {
+    background-color: var(--seconday-color);
 
 }
+#nav-bar{
+    background-color: var(--primary-color);
+}
+#sandwich {
+    color: var(--seconday-color)
+}
+
+header ul li {
+    list-style: none;
+}
 header nav ul li a {
-    padding: 0 8px;
     font-weight: lighter;
     font-size: 20px;
+    margin-right: 5rem;
+
+    border-bottom: solid 2px var(--seconday-color);
+}
+.nav-link{
     color: var(--seconday-color);
-    text-decoration: none;
-    border-bottom: solid 3px var(--seconday-color);
+    padding-bottom: 0;
 }
 /* End header style */
 /* Begin hero style */
@@ -77,25 +70,21 @@ section.hero {
     font-weight: bold;
     border-right: 3px solid var(--primary-color);
     padding-right: 10px;
+    margin-left: 0;
+    
 }
-article {
-    width: 100%;
-    font-size: 250px;
-    display: flex;
-}
-article p {
-    justify-content: center;
+
+.project-links p {
+    font-size: 20px;
 }
 footer {
     color: var(--primary-color);
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 20px 380px 20px 167px;
+    padding: 20px 380px 20px 0;
 }
-footer div {
-    padding-left: 180px;
-}
+
 footer ul {
     margin: 20px 0 25px 0;
     display: flex;
