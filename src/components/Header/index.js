@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import Nav from '../Nav';
 
-function Header(props) { 
-  const { 
-    aboutSelected, 
-    setAboutSelected, 
-    contactSelected, 
-    setContactSelected,
-    portfolioSelected,
-    setPortfolioSelected,
-    resumeSelected,
-    setResumeSelected
-  } = props;  
+function Header({
+  aboutSelected, 
+  setAboutSelected, 
+  contactSelected, 
+  setContactSelected,
+  portfolioSelected,
+  setPortfolioSelected,
+  resumeSelected,
+  setResumeSelected}) { 
+
+    
+
 
     return (
         <header
