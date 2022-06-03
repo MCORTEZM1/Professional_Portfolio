@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [formState, setFormState] = useState({ name: '', email: '', message: '', organization: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
+  const { name, email, message, organization } = formState;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -39,9 +39,11 @@ function ContactForm() {
   return (
     <section 
       class='d-flex justify-content-center'
+      id='contact-container'
       >
       <div 
         id='contact-div'
+        className='mt-5 card'
       >
         <h1 
           data-testid="h1tag" 
@@ -57,12 +59,15 @@ function ContactForm() {
             className="mb-2"
           >
             <label 
-              htmlFor="name">
-              Name:
+              htmlFor="input-name"
+              class="form-label"
+            >Name
             </label>
-            <input 
+            <input
+              id="input-name"
               type="text" 
-              name="name" 
+              name="name"
+              className='form-control' 
               defaultValue={name} 
               onBlur={handleChange} 
             />
@@ -70,9 +75,9 @@ function ContactForm() {
           <div  
             className="mb-2">
             <label 
-              for="exampleInputEmail1" 
-              class="form-label">
-              Email address
+              htmlFor="exampleInputEmail1" 
+              class="form-label"
+            >Email address
             </label>
             <input 
               id='exampleInputEmail1' 
@@ -85,25 +90,56 @@ function ContactForm() {
             />
             <div 
               id="emailHelp" 
-              class="form-text">
-            Your email address will never be shared with anyone else.
-            </div>
-
+              class="form-text"
+            >Your email address will never be shared with anyone else.
+            </div>  
+          </div>
+          <div 
+            className="mb-2"
+          >
+            <label 
+              htmlFor="company-name"
+              class="form-label"
+            >Company/Organization
+            </label>
+            <input
+              id="company-name"
+              type="text" 
+              name="name"
+              className='form-control' 
+              defaultValue={organization}  
+              onBlur={handleChange} 
+            />
           </div>
           <div  className="mb-2">
-            <label htmlFor="message">Message:</label>
-            <textarea name="message" 
+            <label htmlFor="message"
+            >Message
+            </label>
+            <textarea 
+              name="message" 
               rows="5" 
+              className='form-control' 
               defaultValue={message} 
               onBlur={handleChange} 
             />
           </div>
           {errorMessage && (
             <div>
-              <p className="error-text">{errorMessage}</p>
+              <p 
+                className="error-text"
+              >{errorMessage}
+              </p>
             </div>
           )}
-          <button data-testid="button" type="submit">Submit</button>
+          <div id="form-btn">
+            <button 
+              data-testid="button" 
+              type="submit"
+              className='btn btn-secondary' 
+            >Submit
+            </button>
+          </div>
+ 
         </form>
       </div>
     </section>
