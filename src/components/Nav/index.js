@@ -1,5 +1,6 @@
 import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
+import myResume from '../../assets/resume/RESUME6.3.22.pdf';
 
 
 function Nav(props) {
@@ -21,6 +22,7 @@ function Nav(props) {
         setResumeSelected(false);
     }
     const handleResume = (event) => {
+        // event.preventDefault();
         setAboutSelected(false);
         setPortfolioSelected(false);
         setContactSelected(false);
@@ -81,7 +83,9 @@ function Nav(props) {
                         <li class="nav-item">
                             <a class={`nav-link mx-2 ${resumeSelected && 'active'}`}
                                 onClick={handleResume}
-                                href="#">Resume
+                                href={myResume}
+                                download="MichaelCortez-RESUME6.3.22.pdf"
+                                >Resume
                             </a>
                         </li>
                     </ul>
