@@ -24,7 +24,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+ a {
+   color: black;
+   
+ }
 nav ul {
   list-style: none;
   
@@ -140,7 +143,7 @@ nav {
 }
 
 .project-card:hover {
-  transform: scale(110%);
+  transform: scale(101%);
   z-index: 1;
   transition-property: inherit;
 }
@@ -151,9 +154,10 @@ nav {
   margin-top: 10rem;
   margin-bottom: 3rem;
   color:aliceblue;
+  font-weight: bold;
 }
 
-@media (max-width: 2560px) {
+@media (max-width: 14440px) {
   body {
     background-size: cover;
   }

@@ -54,7 +54,7 @@ function Nav(props) {
             <div className="container-fluid" id="navbar">
                 <a className="navbar-brand"
                     id="my-name" 
-                    href="#">Michael Cortez-Mejia
+                    href="#">Michael Cortez
                 </a>
                     <MenuIcon
                         id='menu' 
@@ -84,11 +84,11 @@ function Nav(props) {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link mx-2 ${resumeSelected && 'active'}`}
-                                onClick={handleResume}
-                                href={myResume}
-                                download="MichaelCortez-RESUME6.3.22.pdf"
-                                >Resume
+                            <a 
+                                className={`nav-link mx-2 text-decoration-none ${resumeSelected && 'active'} `}
+                                onClick={() => window.open(`${myResume}`, '_blank')}
+                                href="#"
+                            >Resume
                             </a>
                         </li>
                     </ul>
