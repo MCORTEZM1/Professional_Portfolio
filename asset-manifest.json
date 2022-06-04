@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Professional_Portfolio/static/css/main.3e967a5c.css",
+    "main.js": "/Professional_Portfolio/static/js/main.cfb23c31.js",
+    "static/media/6FeetGaming.png": "/Professional_Portfolio/static/media/6FeetGaming.24eea4c61d3fb46de97e.png",
+    "static/media/ME.jpg": "/Professional_Portfolio/static/media/ME.a324a951dd7fb76f3174.jpg",
+    "static/media/coding.jpg": "/Professional_Portfolio/static/media/coding.afcdf09f87f436d8be0a.jpg",
+    "static/media/party-hearty.PNG": "/Professional_Portfolio/static/media/party-hearty.15ba2b6d94ef1238d7d7.PNG",
+    "static/media/shop-shop.PNG": "/Professional_Portfolio/static/media/shop-shop.9b5015713c6e05638a4e.PNG",
+    "static/media/abstract.jpg": "/Professional_Portfolio/static/media/abstract.2b5b4649ecd6c73a8588.jpg",
+    "static/media/onlyFriends.PNG": "/Professional_Portfolio/static/media/onlyFriends.cee8af3f03f7edb18ffe.PNG",
+    "static/media/RESUME6.3.22.pdf": "/Professional_Portfolio/static/media/RESUME6.3.22.2de8a1f1e7f0cf4ed526.pdf",
+    "static/media/neoTech.png": "/Professional_Portfolio/static/media/neoTech.1eb4eb4d2ef944d97c37.png",
+    "index.html": "/Professional_Portfolio/index.html",
+    "main.3e967a5c.css.map": "/Professional_Portfolio/static/css/main.3e967a5c.css.map",
+    "main.cfb23c31.js.map": "/Professional_Portfolio/static/js/main.cfb23c31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e967a5c.css",
+    "static/js/main.cfb23c31.js"
+  ]
+}
