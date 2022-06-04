@@ -16,6 +16,7 @@ function Header({
 
     return (
         <header
+          id="header-container"
         >
           <Nav 
             aboutSelected={aboutSelected}

@@ -1,8 +1,10 @@
 import './App.css';
-import Nav from './components/Nav';
 import About from './components/About';
 import Header from './components/Header';
 import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio'
+
+import SingleProjectPage from './pages/SingleProjectPage';
 
 import Footer from './components/Footer';
 
@@ -37,7 +39,9 @@ function App() {
       {contactSelected && (
         <ContactForm />
       )}
-
+      {portfolioSelected && (
+        <Portfolio />
+      )}
 
       </main>
       <Footer />
