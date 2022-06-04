@@ -9,10 +9,10 @@ function Header({
   portfolioSelected,
   setPortfolioSelected,
   resumeSelected,
-  setResumeSelected}) { 
-
-    
-
+  setResumeSelected,
+  menuOpen,
+  setMenuOpen
+  }) { 
 
     return (
         <header
@@ -27,6 +27,8 @@ function Header({
             setPortfolioSelected={setPortfolioSelected}
             resumeSelected={resumeSelected}
             setResumeSelected={setResumeSelected}
+            menuOpen={menuOpen}
+            setMenuOpen={setMenuOpen}
           />
         </header>
     )

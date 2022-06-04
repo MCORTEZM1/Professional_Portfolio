@@ -2,9 +2,9 @@ import './App.css';
 import About from './components/About';
 import Header from './components/Header';
 import ContactForm from './components/Contact';
-import Portfolio from './components/Portfolio'
+import Portfolio from './components/Portfolio';
+import MenuDrawer from './components/Drawer';
 
-import SingleProjectPage from './pages/SingleProjectPage';
 
 import Footer from './components/Footer';
 
@@ -18,8 +18,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
-
-
+  const [menuOpen, setMenuOpen] = useState(true);
   return (
     <div id="main">
       <Header 
@@ -31,6 +30,8 @@ function App() {
         setPortfolioSelected={setPortfolioSelected}
         resumeSelected={resumeSelected}
         setResumeSelected={setResumeSelected}
+        menuOpen={menuOpen}
+        setMenuOpen={setMenuOpen}
       />
       <main>
       {aboutSelected && (

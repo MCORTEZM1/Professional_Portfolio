@@ -11,7 +11,7 @@ const projects = [
         description: 'Party_Hearty is an application that allows users to signup and create events that they can post on their profile page. They can create an event with details , and a pinpoint location of the event on a map.They can charge fees, and invite their guests. Users can create , update and delete events on their page. Guests can rsvp on the web application as well .',
         tools: ['MongodDB', 'Express.js,', 'React', 'Node.js', 'GraphQL', 'Leaflet', 'Geosearch', 'React-Bootstrap', 'Marterial UI', 'Heroku'],
         image: PartyHearty,
-        deployed: '`https://stormy-thicket-02132.herokuapp.com/`'
+        deployed: 'https://stormy-thicket-02132.herokuapp.com/'
     },
     {
         name: 'Only Friends',

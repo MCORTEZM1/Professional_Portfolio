@@ -27,11 +27,17 @@ body {
 
 nav ul {
   list-style: none;
+  
 }
 
 nav {
   background-color: var(--primary-color);
   padding: auto;
+  text-decoration: none;
+  color:#020202
+}
+#menu {
+  display: none
 }
 
 #contact-container {
@@ -55,13 +61,16 @@ nav {
   font-weight: bold;
 }
 
-.navLink {
-  font-weight: lighter;
-  font-size: 20px;
-  color: var(--seconday-color);
+.nav-a {
   text-decoration: none;
+  font-variant: small-caps;
+  font-weight: bold;
 }
-
+.nav-item {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
 .me {
   height: 120px;
   width: 120px;
@@ -151,6 +160,9 @@ nav {
 }
 
 @media (max-width: 768px) {
+  #menu {
+    display: inline
+  }
   nav {
     background-color: var(--primary-color);
     display: flex;
@@ -163,8 +175,10 @@ nav {
     font-weight: bold;
   }
   .navLink {
-    visibility: hidden;
     text-decoration: none;
+  }
+  .nav-item {
+    display: block;
   }
   #navbar {
     justify-content: center;
@@ -189,6 +203,6 @@ nav {
 
 @media (max-width: 400px){
   #about-container {
-    margin-top: 4rem;
+    margin: 4rem 2rem 4rem 2rem;
   }
 }

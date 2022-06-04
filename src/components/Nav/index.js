@@ -12,7 +12,9 @@ function Nav(props) {
         portfolioSelected,
         setPortfolioSelected,
         resumeSelected,
-        setResumeSelected
+        setResumeSelected,
+        menuOpen,
+        setMenuOpen,
       } = props;    
 
     const  handleContact = (event) => {
@@ -41,6 +43,12 @@ function Nav(props) {
         setResumeSelected(false);
     }
 
+    const handleMenu = (event) => {
+        console.log(menuOpen)
+        setMenuOpen(!menuOpen);
+    }
+  
+
     return (
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid" id="navbar">
@@ -48,16 +56,11 @@ function Nav(props) {
                     id="my-name" 
                     href="#">Michael Cortez-Mejia
                 </a>
-                {/* <button className="navbar-toggler" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navbarNav" 
-                    aria-controls="navbarNav" 
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button> */}
-                <div className="justify-content-end collapse navbar-collapse" id="navbarNav"
+                    <MenuIcon
+                        id='menu' 
+                        onClick={handleMenu}
+                    />
+                <div className={`justify-content-end ${!menuOpen && 'collapse'} `} id="navbarNav"
                     role="tablist"
                 >
                     <ul className="nav nav-tabs">

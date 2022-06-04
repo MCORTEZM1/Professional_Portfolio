@@ -1,7 +1,6 @@
 import React from 'react';
 import projects from '../../utils/projects'
-import { Link } from 'react-router-dom';
-import { Google } from '@mui/icons-material';
+
 
 function ProjectCard() { 
     // console.log(projects)
@@ -19,7 +18,7 @@ function ProjectCard() {
                             className="card col-4 project-card"
                             key={i}
                             id={project.name}
-                            onClick={() => window.location.assign(`${project.deployed}`)}
+                            onClick={() => window.open(`${project.deployed}`, '_blank')}
                             >
                                 <div 
                                 className="card-header text-center"

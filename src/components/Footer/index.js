@@ -8,13 +8,13 @@ function Footer() {
  return (
     <footer id='footer' className='d-flex justify-content-center'>
         <div id="icons" className="text-center">
-                <a href="http://linkedin.com">
+                <a href="https://www.linkedin.com/in/michael-cortez-mejia/" target="_blank">
                     <LinkedInIcon className="mx-2" fontSize='large' color='action'/>
                 </a>
-                <a href="https://github.com">
+                <a href="https://github.com/MCORTEZM1" target="_blank">
                     <GitHubIcon  className="mx-2" fontSize='large' color='action' /*sx={{color: red[500]}}*/ />
                 </a>
-                <a href="https://stackoverflow.com">
+                <a href="https://stackoverflow.com/users/17649826/mcortezm?tab=profile" target="_blank">
                     <button id='link-btn' className="btn mx-2"> 
                         <svg id='stackIcon' xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#9e9e9e" className="bi bi-stack-overflow" viewBox="8 4 20 19">
                             <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282h9.984z"/>
