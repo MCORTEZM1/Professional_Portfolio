@@ -12,7 +12,9 @@ function Nav(props) {
         portfolioSelected,
         setPortfolioSelected,
         resumeSelected,
-        setResumeSelected
+        setResumeSelected,
+        menuOpen,
+        setMenuOpen,
       } = props;    
 
     const  handleContact = (event) => {
@@ -35,53 +37,54 @@ function Nav(props) {
         setResumeSelected(false);
     }
     const handleAbout = (event) => {
-        setAboutSelected(!aboutSelected);
+        setAboutSelected(true);
         setPortfolioSelected(false);
         setContactSelected(false);
         setResumeSelected(false);
     }
 
+    const handleMenu = (event) => {
+        console.log(menuOpen)
+        setMenuOpen(!menuOpen);
+    }
+  
+
     return (
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid" id="navbar">
-                <a class="navbar-brand"
+        <nav className="navbar navbar-expand-lg bg-light">
+            <div className="container-fluid" id="navbar">
+                <a className="navbar-brand"
                     id="my-name" 
                     href="#">Michael Cortez-Mejia
                 </a>
-                {/* <button class="navbar-toggler" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navbarNav" 
-                    aria-controls="navbarNav" 
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> */}
-                <div class="justify-content-end collapse navbar-collapse" id="navbarNav"
+                    <MenuIcon
+                        id='menu' 
+                        onClick={handleMenu}
+                    />
+                <div className={`justify-content-end ${!menuOpen && 'collapse'} `} id="navbarNav"
                     role="tablist"
                 >
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class={`nav-link mx-2 ${aboutSelected &&  'active'}`} 
+                    <ul className="nav nav-tabs">
+                        <li className="nav-item">
+                            <a className={`nav-link mx-2 ${aboutSelected &&  'active'}`} 
                                 aria-current="page"
                                 onClick={handleAbout}
                                 href="#">About Me
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class={`nav-link mx-2 ${portfolioSelected && 'active'}`}
+                        <li className="nav-item">
+                            <a className={`nav-link mx-2 ${portfolioSelected && 'active'}`}
                                 onClick={handlePortfolio}
                                 href="#">Portfolio
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class={`nav-link mx-2 ${contactSelected && 'active'}`}
+                        <li className="nav-item">
+                            <a className={`nav-link mx-2 ${contactSelected && 'active'}`}
                                 onClick={handleContact}
                                 href="#">Contact
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class={`nav-link mx-2 ${resumeSelected && 'active'}`}
+                        <li className="nav-item">
+                            <a className={`nav-link mx-2 ${resumeSelected && 'active'}`}
                                 onClick={handleResume}
                                 href={myResume}
                                 download="MichaelCortez-RESUME6.3.22.pdf"

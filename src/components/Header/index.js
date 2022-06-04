@@ -9,13 +9,14 @@ function Header({
   portfolioSelected,
   setPortfolioSelected,
   resumeSelected,
-  setResumeSelected}) { 
-
-    
-
+  setResumeSelected,
+  menuOpen,
+  setMenuOpen
+  }) { 
 
     return (
         <header
+          id="header-container"
         >
           <Nav 
             aboutSelected={aboutSelected}
@@ -26,6 +27,8 @@ function Header({
             setPortfolioSelected={setPortfolioSelected}
             resumeSelected={resumeSelected}
             setResumeSelected={setResumeSelected}
+            menuOpen={menuOpen}
+            setMenuOpen={setMenuOpen}
           />
         </header>
     )

@@ -6,15 +6,15 @@ import Paper from '@mui/material/Paper';
 function About() {
 
     return (
-        <Paper elevation={7} className='about mt-4 pb-4' id='about-container'>
+        <Paper elevation={7} className='about pb-4' id='about-container'>
                 <Grid container justifyContent={'center'} alignItems='center'>   
-                <img class="me" src={imgMe} alt="Picture of me" />
+                <img className="me" src={imgMe} alt="Picture of me" />
 
                     <Grid item md={1}>
                     </Grid>
                     <Grid item md={9}>
-                        <section id="about-me" class="about-me">
-                            <h2 class="border-text">
+                        <section id="about-me" className="about-me">
+                            <h2 className="border-text">
                                 About Me
                             </h2>
                             <div>
