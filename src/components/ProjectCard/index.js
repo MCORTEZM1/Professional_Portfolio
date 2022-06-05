@@ -15,7 +15,7 @@ function ProjectCard() {
                 {projects.map((project, i) => (
                         
                             <div 
-                            className="card col-4 project-card"
+                            className="card col-10 project-card"
                             key={i}
                             id={project.name}
                             onClick={() => window.open(`${project.deployed}`, '_blank')}

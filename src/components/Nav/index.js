@@ -1,6 +1,7 @@
 import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import myResume from '../../assets/resume/RESUME6.3.22.pdf';
+import './style.css'
 
 
 function Nav(props) {
