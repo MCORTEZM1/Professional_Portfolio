@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-
 import { validateEmail } from '../../utils/helpers';
+import 'style.css';
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '', organization: '' });
@@ -43,7 +43,7 @@ function ContactForm() {
       >
       <div 
         id='contact-div'
-        className='mt-5 card'
+        className='card'
       >
         <h1 
           data-testid="h1tag" 
