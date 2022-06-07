@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import myResume from '../../assets/resume/Resume_MichaelCortezUD6.22.pdf';
-
+import './style.css';
 
 function Nav(props) {
     const { 
@@ -15,7 +15,7 @@ function Nav(props) {
         setResumeSelected,
         menuOpen,
         setMenuOpen,
-      } = props;    
+    } = props;    
 
     const  handleContact = (event) => {
         setAboutSelected(false);
@@ -23,13 +23,13 @@ function Nav(props) {
         setContactSelected(true);
         setResumeSelected(false);
     }
-    const handleResume = (event) => {
-        // event.preventDefault();
-        setAboutSelected(false);
-        setPortfolioSelected(false);
-        setContactSelected(false);
-        setResumeSelected(true);
-    }
+    // const handleResume = (event) => {
+    //     // event.preventDefault();
+    //     setAboutSelected(false);
+    //     setPortfolioSelected(false);
+    //     setContactSelected(false);
+    //     setResumeSelected(true);
+    // }
     const handlePortfolio = (event) => {
         setAboutSelected(false);
         setPortfolioSelected(true);

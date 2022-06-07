@@ -28,20 +28,9 @@ body {
    color: black;
    
  }
-nav ul {
-  list-style: none;
-  
-}
 
-nav {
-  background-color: var(--primary-color);
-  padding: auto;
-  text-decoration: none;
-  color:#020202
-}
-#menu {
-  display: none
-}
+
+
 
 #contact-container {
   overflow: hidden;
@@ -59,21 +48,6 @@ nav {
   margin-bottom: 5px;
 }
 
-#my-name {
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-.nav-a {
-  text-decoration: none;
-  font-variant: small-caps;
-  font-weight: bold;
-}
-.nav-item {
-  text-decoration: none;
-  display: inline-block;
-  color: black;
-}
 .me {
   height: 120px;
   width: 120px;
@@ -99,7 +73,7 @@ nav {
   
 }
 
- footer {
+footer {
   margin-top: 1rem;
   background-color: var(--secondary-color);
   position: fixed;
@@ -164,29 +138,6 @@ nav {
 }
 
 @media (max-width: 768px) {
-  #menu {
-    display: inline
-  }
-  nav {
-    background-color: var(--primary-color);
-    display: flex;
-    max-width: auto;
-    margin-bottom: 0;
-  }
-  #my-name {
-    margin: 0 auto;
-    color: var(--primary-color);
-    font-weight: bold;
-  }
-  .navLink {
-    text-decoration: none;
-  }
-  .nav-item {
-    display: block;
-  }
-  #navbar {
-    justify-content: center;
-  }
   #about-container {
     margin-top: 10rem;
   }
