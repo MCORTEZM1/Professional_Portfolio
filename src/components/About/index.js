@@ -2,6 +2,7 @@ import React from 'react';
 import imgMe from '../../assets/images/ME.jpg';
 import Grid from '@mui/material/Grid'
 import Paper from '@mui/material/Paper';
+import './style.css';
 
 function About() {
 
