@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 768px) { 
+    #contact-div {
+        width: 25rem;
+        margin: 7rem 0;
+    }
 
-    
 }
