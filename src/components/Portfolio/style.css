@@ -7,6 +7,9 @@
     font-weight: bold;
 }
 @media (max-width: 768px) {
-
-
+    #portfolio-intro-container{
+        height: 25rem;
+        display: flex;
+        align-items: center;
+      }
 }

@@ -98,9 +98,5 @@ a {
     margin-left: 0;
     margin-right: 0;
   }
-  #portfolio-intro-container{
-    height: 25rem;
-    display: flex;
-    align-items: center;
-  }
+
 }
