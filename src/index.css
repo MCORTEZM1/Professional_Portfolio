@@ -32,12 +32,6 @@ body {
 
 
 
-#contact-container {
-  overflow: hidden;
-  margin-top: 13vw;
-}
-
-
 
 #contact-form { 
  display: flex;
