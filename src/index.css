@@ -147,9 +147,6 @@ footer {
     width: 25rem;
     margin: 7rem 0;
   }
-  #about-container {
-    margin-top: 10rem;
-  }
   #card-description {
     display: none;
   }
@@ -166,9 +163,7 @@ footer {
 } 
 
 @media (max-width: 400px){
-  #about-container {
-    margin: 4rem 2rem 4rem 2rem;
-  }
+
   #contact-div {
     background-color: cadetblue;
     width: 100%;

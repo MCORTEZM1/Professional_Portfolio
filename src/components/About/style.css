@@ -7,3 +7,16 @@
 .about {
 overflow: hidden;  
 }
+
+
+@media (max-width: 768px) {
+    #about-container {
+      margin-top: 10rem;
+    }
+} 
+
+@media (max-width: 400px){
+    #about-container {
+      margin: 4rem 2rem 4rem 2rem;
+    }
+}
