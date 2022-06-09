@@ -1,0 +1,9 @@
+#about-container {
+    overflow-y: visible;
+    margin-top: 20rem;
+  
+}
+  
+.about {
+overflow: hidden;  
+}
