@@ -80,14 +80,7 @@ a {
   transition-property: inherit;
 }
 
-#portfolio-intro-container{
-  background:var(--secondary-color);
-  padding: 3rem;
-  margin-top: 10rem;
-  margin-bottom: 3rem;
-  color:aliceblue;
-  font-weight: bold;
-}
+
 
 @media (max-width: 14440px) {
   body {
