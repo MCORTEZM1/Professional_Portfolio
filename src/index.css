@@ -38,13 +38,7 @@ a {
   position: relative;
 }
 
-#header-container{
-  background-color: #020202;
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-  
-}
+
 
 
 #link-btn {
