@@ -20,3 +20,13 @@
     background-color: cadetblue;
     width: 25rem;
 }
+
+@media (max-width: 14440px) {
+    #contact-div {
+      width: 25rem;
+    }
+    #contact-container {
+      overflow: hidden;
+      margin-top: 10vw;
+    }
+}

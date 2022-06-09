@@ -115,13 +115,6 @@ footer {
   body {
     background-size: cover;
   }
-  #contact-div {
-    width: 25rem;
-  }
-  #contact-container {
-    overflow: hidden;
-    margin-top: 10vw;
-  }
 }
 
 @media (max-width: 768px) {
