@@ -10,3 +10,13 @@ footer {
 #stackIcon {
     overflow: visible;
 }
+
+#link-btn {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    height: 28px;
+    width: 25px;
+    background-color: rgba(0, 0, 0, 0.54);
+  
+}
+  
