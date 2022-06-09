@@ -90,10 +90,7 @@ footer {
   margin-bottom: 10rem;
 
 }
-#contact-div {
-  background-color: cadetblue;
-  width: 25rem;
-}
+
 #card-description { 
   border: 1px solid var(--secondary-color);
   border-radius: 5%;
