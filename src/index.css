@@ -5,12 +5,13 @@
   --no-hover-color: rgba(75, 105, 133, .8);
   --hover-color: rgba(75, 105, 133, .5);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* Begin header style */
+
 body {
   background-color: var(--tertiary-color);
   font-family: sans-serif;
@@ -18,15 +19,17 @@ body {
   background-attachment: fixed;
   background-position: bottom;
 }
+
 #main {
   /* this is the main div that holds everything, including header and footer */
   display: flex;
   flex-direction: column;
 }
- a {
+
+a {
    color: black;
    
- }
+}
 
 
 
