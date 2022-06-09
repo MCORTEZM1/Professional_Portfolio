@@ -46,14 +46,6 @@ a {
   
 }
 
-footer {
-  margin-top: 1rem;
-  background-color: var(--secondary-color);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 999;
-}
 
 #link-btn {
   margin-top: 11px;
@@ -127,5 +119,4 @@ footer {
     display: flex;
     align-items: center;
   }
-} 
-
+}
