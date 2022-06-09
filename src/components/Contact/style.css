@@ -48,5 +48,7 @@
 }
 
 @media (max-width: 375px) {
-
+    #contact-div {
+        height: 80%;
+    }
 }

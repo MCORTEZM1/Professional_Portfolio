@@ -134,11 +134,3 @@ footer {
   }
 } 
 
-
-@media (max-width: 375px) {
-  #contact-div {
-    /* margin-top: 1rem; */
-    height: 80%;
-
-  }
-}
