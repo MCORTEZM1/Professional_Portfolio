@@ -20,7 +20,7 @@ function About() {
                             </h2>
                             <div>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit maiores eum accusantium. Architecto ducimus earum nulla.
+                                    Welcome to my portfolio! My name is Michael Cortez-Mejia
                                     Accusantium non obcaecati aliquam cupiditate porro. Voluptate distinctio quis odit est, libero rem neque doloribus assumenda cumque earum nulla velit id doloremque dolor ipsa nam reprehenderit itaque officiis mollitia adipisci!
                                 </p>
                             <br/>
