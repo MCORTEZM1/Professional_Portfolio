@@ -21,7 +21,7 @@ function ProjectCard() {
                                 onClick={() => window.open(`${project.deployed}`, '_blank')}
                             >
                                 <div 
-                                className="card-header text-center"
+                                    className="card-header text-center"
                                 id='card-header'
                                 >{project.name}
                                 </div>
