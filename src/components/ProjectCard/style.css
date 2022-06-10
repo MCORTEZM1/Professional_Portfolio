@@ -27,7 +27,7 @@
     transition-property: inherit;
   }
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     #card-description {
       display: none;
     }
