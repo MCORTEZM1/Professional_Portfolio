@@ -12,8 +12,7 @@ function ProjectCard() {
            <div 
               className="row d-flex justify-content-center"
             >
-                {projects.map((project, i) => (
-                        
+                {projects.map((project, i) => (  
                         <div 
                             className="card col-12 project-card"
                             key={i}
