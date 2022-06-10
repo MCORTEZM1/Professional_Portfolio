@@ -21,7 +21,7 @@
     border-radius: 5%;
   }
 
-  .project-card:hover {
+.project-card:hover {
     transform: scale(101%);
     z-index: 1;
     transition-property: inherit;
