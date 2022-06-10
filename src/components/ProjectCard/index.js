@@ -18,7 +18,7 @@ function ProjectCard() {
                                 className="card col-12 project-card"
                                 key={i}
                                 id={project.name}
-                            onClick={() => window.open(`${project.deployed}`, '_blank')}
+                                onClick={() => window.open(`${project.deployed}`, '_blank')}
                             >
                                 <div 
                                 className="card-header text-center"
