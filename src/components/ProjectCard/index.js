@@ -7,7 +7,7 @@ function ProjectCard() {
     
     return (
        <div className="container"
-        id="card-container"
+            id="card-container"
        >
            <div 
               className="row d-flex justify-content-center"
