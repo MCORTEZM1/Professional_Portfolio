@@ -5,3 +5,8 @@
     text-decoration: none;
     color: black;
   }
+
+  .card-header { 
+    background-color: var(--secondary-primary);
+    font-weight: bold;
+  }

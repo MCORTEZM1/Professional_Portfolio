@@ -44,10 +44,7 @@ a {
 
 
 
-.card-header { 
-  background-color: var(--secondary-primary);
-  font-weight: bold;
-}
+
 
 #card-container {
   margin-bottom: 10rem;
