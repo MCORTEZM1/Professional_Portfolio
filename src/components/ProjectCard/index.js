@@ -31,7 +31,8 @@ function ProjectCard() {
                                     id='card-image'
                                 />
                                 <div 
-                                    className={`card-body`} id='card-description'>
+                                    className={`card-body`} 
+                                    id='card-description'>
                                     {project.description}
                                    <h6 className='mt-2'> Tools:</h6>
                                     <ul className="mt-2 ">
