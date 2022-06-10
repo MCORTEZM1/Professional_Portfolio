@@ -9,6 +9,19 @@ overflow: hidden;
 }
 
 
+.me {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     #about-container {
       margin-top: 10rem;
