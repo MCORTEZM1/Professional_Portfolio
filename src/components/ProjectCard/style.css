@@ -25,15 +25,15 @@
     transform: scale(101%);
     z-index: 1;
     transition-property: inherit;
-  }
+}
 
 @media (max-width: 768px) {
     #card-description {
       display: none;
     }
     #card-container { 
-      flex-direction: row;
-      margin-left: 0;
-      margin-right: 0;
+        flex-direction: row;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
