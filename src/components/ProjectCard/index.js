@@ -22,7 +22,7 @@ function ProjectCard() {
                             >
                                 <div 
                                     className="card-header text-center"
-                                id='card-header'
+                                    id='card-header'
                                 >{project.name}
                                 </div>
                                 <img 
