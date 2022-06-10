@@ -48,10 +48,7 @@ a {
 
 
 
-#card-description { 
-  border: 1px solid var(--secondary-color);
-  border-radius: 5%;
-}
+
 
 .project-card:hover {
   transform: scale(101%);
