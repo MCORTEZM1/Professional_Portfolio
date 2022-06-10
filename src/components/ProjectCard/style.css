@@ -6,7 +6,7 @@
     color: black;
   }
 
-  .card-header { 
+.card-header { 
     background-color: var(--secondary-primary);
     font-weight: bold;
 }
