@@ -28,5 +28,8 @@
   }
 
   @media (max-width: 768px) {
+    #card-description {
+      display: none;
+    }
 
   }
