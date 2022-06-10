@@ -20,12 +20,18 @@ function About() {
                             </h2>
                             <div>
                                 <p>
-                                    Welcome to my portfolio! My name is Michael Cortez-Mejia I am a full-stack developer
-                                    Accusantium non obcaecati aliquam cupiditate porro. Voluptate distinctio quis odit est, libero rem neque doloribus assumenda cumque earum nulla velit id doloremque dolor ipsa nam reprehenderit itaque officiis mollitia adipisci!
+                                    Full stack web developer with a BA in sociology from UC Berkeley. Certified Full Stack Developer, 
+                                    by UC Berkeley in frontend and backend technologies such as HTML, CSS, JavaScript, MongoDb, 
+                                    Express, React, Node, Handlebars, NoSQL, SQL, mongoose, sequelize, Apollo, RESTful API, and GraphQL among others. 
+                                    Experienece with fundamental/tools following the MERN stack, MVC paradigm, TDD - Test Driven Development, and
+                                    OOP - Object Oriented Programming, 
+                                    Additional experience developing progressive web applications using service workers and IndexedDB.
                                 </p>
                             <br/>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique suscipit possimus provident temporibus, alias illum perspiciatis excepturi quis accusantium, et quasi expedita quod? Non sapiente libero consequuntur quae, fuga nostrum.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab excepturi doloribus aliquam. Consequuntur obcaecati laborum nisi vitae perspiciatis vero harum itaque similique voluptas. Facere quis hic modi et iste?
+                            Previous experience includes 10+ years in retail- client satisfaction and goal oriented. Fully committed to continuous learning and improvement. 
+                            Fascinated by different coding technologies and using critical analysis to understand a problem and develop a solution. My background in understanding complex data
+                            – from sociological to the back-end – and ability to implement complex solutions – to meet goals and satisfy clients –  makes me a solid asset to any software engineering team. 
+
                             </div>
                         </section >
                     </Grid>
