@@ -50,11 +50,7 @@ a {
 
 
 
-.project-card:hover {
-  transform: scale(101%);
-  z-index: 1;
-  transition-property: inherit;
-}
+
 
 @media (max-width: 14440px) {
   body {

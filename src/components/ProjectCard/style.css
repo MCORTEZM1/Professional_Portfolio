@@ -20,3 +20,9 @@
     border: 1px solid var(--secondary-color);
     border-radius: 5%;
   }
+
+  .project-card:hover {
+    transform: scale(101%);
+    z-index: 1;
+    transition-property: inherit;
+  }
