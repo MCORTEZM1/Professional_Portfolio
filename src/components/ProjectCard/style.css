@@ -31,5 +31,9 @@
     #card-description {
       display: none;
     }
-
+    #card-container { 
+      flex-direction: row;
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
