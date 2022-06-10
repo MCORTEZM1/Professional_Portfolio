@@ -17,7 +17,7 @@ function ProjectCard() {
                             <div 
                                 className="card col-12 project-card"
                                 key={i}
-                            id={project.name}
+                                id={project.name}
                             onClick={() => window.open(`${project.deployed}`, '_blank')}
                             >
                                 <div 
