@@ -50,9 +50,7 @@ To see more info regarding this license, please visit https://choosealicense.com
 If you would like to add/contribute to the project, feel free to fork from GitHub @MCORTEZM1 
 Or click here: https://github.com/MCORTEZM1/Professional_Portfolio
 
+
 ## **Questions / Contact Me**
 
-Please reach out with any questions or concerns directly to: mcortezm@yahoo.com
-
-
-
+Please reach out with any questions or concerns directly to: mcortezm@yahoo.comq
