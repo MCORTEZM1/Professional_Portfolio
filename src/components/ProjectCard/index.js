@@ -35,8 +35,11 @@ function ProjectCard() {
                             >{project.description}
                             <h6 className='mt-2'> Tools:</h6>
                             <ul className="mt-2 ">
-                                {project.tools.map((tool, ) => (
-                                    <li>{tool}</li>
+                                {project.tools.map((tool, i) => (
+                                    <li
+                                        key={i}
+                                    >{tool}
+                                    </li>
                                 ))}
                             </ul>
                         </div>

@@ -50,7 +50,7 @@ function Nav(props) {
   
 
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg bg-light" id='nav-bar'>
             <div className="container-fluid" id="navbar">
                 <a className="navbar-brand"
                     id="my-name" 
@@ -63,29 +63,29 @@ function Nav(props) {
                 <div className={`justify-content-end ${!menuOpen && 'collapse'} `} id="navbarNav"
                     role="tablist"
                 >
-                    <ul className="nav nav-tabs">
-                        <li className="nav-item">
-                            <a className={`nav-link mx-2 ${aboutSelected &&  'active'}`} 
+                    <ul className="nav ">
+                        <li className="nav-i">
+                            <a className={`nav-l mx-2 ${aboutSelected &&  'selected'}`} 
                                 aria-current="page"
                                 onClick={handleAbout}
                                 href="#">About Me
                             </a>
                         </li>
-                        <li className="nav-item">
-                            <a className={`nav-link mx-2 ${portfolioSelected && 'active'}`}
+                        <li className="nav-i">
+                            <a className={`nav-l mx-2 ${portfolioSelected && 'selected'}`}
                                 onClick={handlePortfolio}
                                 href="#">Portfolio
                             </a>
                         </li>
-                        <li className="nav-item">
-                            <a className={`nav-link mx-2 ${contactSelected && 'active'}`}
+                        <li className="nav-i">
+                            <a className={`nav-l mx-2 ${contactSelected && 'selected'}`}
                                 onClick={handleContact}
                                 href="#">Contact
                             </a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-i">
                             <a 
-                                className={`nav-link mx-2 text-decoration-none ${resumeSelected && 'active'} `}
+                                className={`nav-l mx-2 text-decoration-none ${resumeSelected && 'selected'} `}
                                 onClick={() => window.open(`${myResume}`, '_blank')}
                                 href="#"
                             >Resume

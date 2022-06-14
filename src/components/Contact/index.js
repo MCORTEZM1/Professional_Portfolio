@@ -38,7 +38,7 @@ function ContactForm() {
 
   return (
     <section 
-      class='d-flex justify-content-center'
+      className='d-flex justify-content-center'
       id='contact-container'
       >
       <div 
@@ -60,7 +60,7 @@ function ContactForm() {
           >
             <label 
               htmlFor="input-name"
-              class="form-label"
+              className="form-label"
             >Name
             </label>
             <input
@@ -76,12 +76,12 @@ function ContactForm() {
             className="mb-2">
             <label 
               htmlFor="exampleInputEmail1" 
-              class="form-label"
+              className="form-label"
             >Email address
             </label>
             <input 
               id='exampleInputEmail1' 
-              class="form-control" 
+              className="form-control" 
               type="email" 
               name="email" 
               aria-describedby="emailHelp"
@@ -90,7 +90,7 @@ function ContactForm() {
             />
             <div 
               id="emailHelp" 
-              class="form-text"
+              className="form-text"
             >Your email address will never be shared with anyone else.
             </div>  
           </div>
@@ -99,7 +99,7 @@ function ContactForm() {
           >
             <label 
               htmlFor="company-name"
-              class="form-label"
+              className="form-label"
             >Company/Organization
             </label>
             <input

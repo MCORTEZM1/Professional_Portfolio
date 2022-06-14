@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Gravitas+One&display=swap');
 
 nav {
     background-color: var(--primary-color);
@@ -10,21 +11,28 @@ nav ul {
     list-style: none;
 }
 
-.nav-a {
-    text-decoration: none;
-    font-variant: small-caps;
-    font-weight: bold;
-}
-
-.nav-item {
+.nav-i {
     text-decoration: none;
     display: inline-block;
+    font-family:'Gravitas One', cursive;
+    color:  black;
+}
+.nav-l {
+    text-decoration: none;
     color: black;
 }
+
+.selected {
+    color: rgb(23, 171, 182);
+    font-size: large;
+}
+
 
 #my-name {
     color: var(--primary-color);
     font-weight: bold;
+    font-family: 'Aguafina Script', cursive;
+    font-size: xx-large;
 }
 
 #menu {
@@ -34,25 +42,21 @@ nav ul {
 @media (max-width: 768px) {
     nav {
         background-color: var(--primary-color);
-        display: flex;
         max-width: auto;
         margin-bottom: 0;
     }
-    .navLink {
-        text-decoration: none;
+    #nav-bar {
+        
     }
-    .nav-item {
-        display: block;
-    }
-    #navbar {
+    nav ul {
         justify-content: center;
     }
     #menu {
-        display: inline
+        display: inline;
     }
     #my-name {
         margin: 0 auto;
-        color: var(--primary-color);
         font-weight: bold;
-      }
+        font-size: x-large;
+    }
 }
