@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Professional_Portfolio/static/css/main.8a045c24.css",
-    "main.js": "/Professional_Portfolio/static/js/main.906114de.js",
+    "main.css": "/Professional_Portfolio/static/css/main.690d1ef1.css",
+    "main.js": "/Professional_Portfolio/static/js/main.3e9e3c79.js",
     "static/media/Resume_MichaelCortezUD6.22.pdf": "/Professional_Portfolio/static/media/Resume_MichaelCortezUD6.22.d17cb9cbc669922a5931.pdf",
     "static/media/6FeetGaming.png": "/Professional_Portfolio/static/media/6FeetGaming.24eea4c61d3fb46de97e.png",
     "static/media/ME.jpg": "/Professional_Portfolio/static/media/ME.a324a951dd7fb76f3174.jpg",
@@ -12,11 +12,11 @@
     "static/media/onlyFriends.PNG": "/Professional_Portfolio/static/media/onlyFriends.cee8af3f03f7edb18ffe.PNG",
     "static/media/neoTech.png": "/Professional_Portfolio/static/media/neoTech.1eb4eb4d2ef944d97c37.png",
     "index.html": "/Professional_Portfolio/index.html",
-    "main.8a045c24.css.map": "/Professional_Portfolio/static/css/main.8a045c24.css.map",
-    "main.906114de.js.map": "/Professional_Portfolio/static/js/main.906114de.js.map"
+    "main.690d1ef1.css.map": "/Professional_Portfolio/static/css/main.690d1ef1.css.map",
+    "main.3e9e3c79.js.map": "/Professional_Portfolio/static/js/main.3e9e3c79.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a045c24.css",
-    "static/js/main.906114de.js"
+    "static/css/main.690d1ef1.css",
+    "static/js/main.3e9e3c79.js"
   ]
 }
