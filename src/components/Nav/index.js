@@ -50,7 +50,7 @@ function Nav(props) {
   
 
     return (
-        <nav className="navbar navbar-expand-lg bg-light" id='nav-bar'>
+        <nav className="navbar navbar-expand-lg" id='nav-bar'>
             <div className="container-fluid" id="navbar">
                 <a className="navbar-brand"
                     id="my-name" 

@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Gravitas+One&display=swap');
 
 nav {
-    background-color: var(--primary-color);
     padding: auto;
     text-decoration: none;
-    color:#020202
+    color:#020202;
+    
+}
+#nav-bar {
+    background: linear-gradient( 
+        -50deg, 
+        var(--secondary-color), 
+        var(--primary-color)
+    );
 }
 
 nav ul {
@@ -29,7 +36,7 @@ nav ul {
 
 
 #my-name {
-    color: var(--primary-color);
+    color: white;
     font-weight: bold;
     font-family: 'Aguafina Script', cursive;
     font-size: xx-large;

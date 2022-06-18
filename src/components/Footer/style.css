@@ -1,6 +1,10 @@
 footer {
     margin-top: 1rem;
-    background-color: var(--secondary-color);
+    background: linear-gradient( 
+        -50deg, 
+        var(--secondary-color), 
+        var(--primary-color)
+    );
     position: fixed;
     bottom: 0;
     width: 100%;
