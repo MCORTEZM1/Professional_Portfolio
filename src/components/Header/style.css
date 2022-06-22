@@ -1,6 +1,6 @@
 #header-container{
     background-color: #020202;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 999;
 }
