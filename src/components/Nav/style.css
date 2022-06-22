@@ -41,7 +41,6 @@ nav ul {
 #menu {
     display: none
 }
-
 @media (max-width: 768px) {
     nav {
         background-color: var(--primary-color);
