@@ -40,9 +40,6 @@ function About() {
                                     Fascinated by different coding technologies and using critical analysis to understand a problem and develop a solution. My background in understanding complex data
                                     – from sociological to the back-end – and ability to implement complex solutions – to meet goals and satisfy clients –  makes me a solid asset to any software engineering team. 
                                 </p>
-
-
-                      
                             </div>
                         </section >
                     </Grid>
