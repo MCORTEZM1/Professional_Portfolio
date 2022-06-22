@@ -10,7 +10,8 @@ nav {
     background: linear-gradient( 
         -50deg, 
         var(--secondary-color), 
-        var(--primary-color)
+        var(--primary-color),
+        rgba(37, 37, 37)
     );
 }
 
