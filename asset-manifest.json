@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Professional_Portfolio/static/css/main.ac9c0f6c.css",
+    "main.css": "/Professional_Portfolio/static/css/main.b08e24a0.css",
     "main.js": "/Professional_Portfolio/static/js/main.79c42f86.js",
     "static/media/Resume_MichaelCortezUD6.22.pdf": "/Professional_Portfolio/static/media/Resume_MichaelCortezUD6.22.d17cb9cbc669922a5931.pdf",
     "static/media/6FeetGaming.png": "/Professional_Portfolio/static/media/6FeetGaming.24eea4c61d3fb46de97e.png",
@@ -12,11 +12,11 @@
     "static/media/onlyFriends.PNG": "/Professional_Portfolio/static/media/onlyFriends.cee8af3f03f7edb18ffe.PNG",
     "static/media/neoTech.png": "/Professional_Portfolio/static/media/neoTech.1eb4eb4d2ef944d97c37.png",
     "index.html": "/Professional_Portfolio/index.html",
-    "main.ac9c0f6c.css.map": "/Professional_Portfolio/static/css/main.ac9c0f6c.css.map",
+    "main.b08e24a0.css.map": "/Professional_Portfolio/static/css/main.b08e24a0.css.map",
     "main.79c42f86.js.map": "/Professional_Portfolio/static/js/main.79c42f86.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac9c0f6c.css",
+    "static/css/main.b08e24a0.css",
     "static/js/main.79c42f86.js"
   ]
 }
