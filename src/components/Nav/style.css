@@ -23,15 +23,17 @@ nav ul {
     text-decoration: none;
     display: inline-block;
     font-family:'Gravitas One', cursive;
-    color:  black;
 }
 .nav-l {
     text-decoration: none;
-    color: black;
+    color: black
+}
+.nav-l:hover{
+    color: var(--primary-color);
 }
 
 .selected {
-    color: rgb(23, 171, 182);
+    color: white;
     font-size: large;
 }
 
