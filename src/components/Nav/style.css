@@ -28,7 +28,6 @@ nav ul {
 .nav-l:hover{
     color: var(--primary-color);
 }
-
 .selected {
     color: white;
     font-size: large;
