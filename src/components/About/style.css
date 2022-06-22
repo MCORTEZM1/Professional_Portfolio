@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Gravitas+One&family=Josefin+Slab:wght@600&display=swap');
 #about-container {
   overflow-y: visible;
-  margin-top: 20rem;
+  margin-top: 15rem;
   background-color: rgba(240, 248, 255, 0.788);
 }
 #about-me {
@@ -17,8 +17,8 @@
 }
 
 .me {
-  height: 120px;
-  width: 120px;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%;
   position: relative;
 }
