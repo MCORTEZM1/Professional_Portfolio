@@ -1,30 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Gravitas+One&family=Josefin+Slab:wght@600&display=swap');
+
 .project-card {
     height: auto;
     overflow: hidden;
-    margin: 2em 2rem;
+    margin: 2rem;
     text-decoration: none;
-    color: black;
+    border-radius: 2rem;
 }
 
-.card-header { 
-    background-color: var(--secondary-primary);
-    font-weight: bold;
+#card-header {
+    color: white;
+    font-weight: light;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    font-family:'Gravitas One', cursive;
+    background: linear-gradient(50deg, var(--primary-color), var(--secondary-color));
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 #card-container {
     margin-bottom: 10rem;
-  
 }
 
 #card-description { 
-    border: 1px solid var(--secondary-color);
-    border-radius: 5%;
+    border: .3rem solid var(--primary-color);
+    border-radius: 2rem;
+    margin: 1rem 0;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.4rem;
 }
 
 .project-card:hover {
     transform: scale(101%);
     z-index: 1;
     transition-property: inherit;
+}
+
+#card-image { 
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 @media (max-width: 768px) {
