@@ -48,9 +48,26 @@
     #card-description {
       display: none;
     }
+    #card-description:hover {
+        display: inline;
+    }
     #card-container { 
         flex-direction: row;
         margin-left: 0;
         margin-right: 0;
+        padding: 0;
+    }
+    #card-header{ 
+        font-size: 1rem;
+        padding: .5rem;
+        margin-top:  0;
+    }
+    .project-card {
+        padding: 0;
+        margin: 1rem;
+        width: 20rem
+    }
+    #card-row {
+        margin: 0;
     }
 }

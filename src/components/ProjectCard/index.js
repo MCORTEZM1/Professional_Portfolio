@@ -11,6 +11,7 @@ function ProjectCard() {
        >
            <div 
               className="row d-flex justify-content-center"
+              id='card-row'
             >
                 {projects.map((project, i) => (  
                     <div 
