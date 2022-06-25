@@ -37,7 +37,7 @@ const projects = [
     {
         name: 'Shop-Shop!',
         description: 'Shop-Shop is a mock full MERN stack E-Commerce progressive web application -PWA- using Redux-like techniques to manage a global-state',
-        tools: ['MongodDB', 'Express.js', 'React', 'Node.js', 'Apollo', 'GraphQL', 'Stripe', 'Service Workers', 'PWA'],
+        tools: [ 'Context-API', 'MongodDB', 'Express.js', 'React', 'Node.js', 'Apollo', 'GraphQL', 'Stripe', 'Service Workers', 'PWA'],
         image: ShopShop,
         deployed: 'https://shop-till-u-drop.herokuapp.com/'
     },
