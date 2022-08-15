@@ -14,6 +14,7 @@
 
 
 
+
 ![MOBILE](/screenshots/mobile-ph.PNG)
 ![DESKTOP](/screenshots/ph-desktop.PNG)
 
@@ -27,6 +28,7 @@
 ## **Installation**
 
 The application is available live at: https://mcortezm1.github.io/Professional_Portfolio/
+
 
 
 ## **Usage**
