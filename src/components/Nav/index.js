@@ -1,8 +1,7 @@
 import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import myResume from '../../assets/resume/RESUME6.3.22.pdf';
-import './style.css'
-
+import myResume from '../../assets/resume/Resume_MichaelCortezUD6.22.pdf';
+import './style.css';
 
 function Nav(props) {
     const { 
@@ -16,7 +15,7 @@ function Nav(props) {
         setResumeSelected,
         menuOpen,
         setMenuOpen,
-      } = props;    
+    } = props;    
 
     const  handleContact = (event) => {
         setAboutSelected(false);
@@ -24,13 +23,13 @@ function Nav(props) {
         setContactSelected(true);
         setResumeSelected(false);
     }
-    const handleResume = (event) => {
-        // event.preventDefault();
-        setAboutSelected(false);
-        setPortfolioSelected(false);
-        setContactSelected(false);
-        setResumeSelected(true);
-    }
+    // const handleResume = (event) => {
+    //     // event.preventDefault();
+    //     setAboutSelected(false);
+    //     setPortfolioSelected(false);
+    //     setContactSelected(false);
+    //     setResumeSelected(true);
+    // }
     const handlePortfolio = (event) => {
         setAboutSelected(false);
         setPortfolioSelected(true);
@@ -51,11 +50,11 @@ function Nav(props) {
   
 
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg" id='nav-bar'>
             <div className="container-fluid" id="navbar">
                 <a className="navbar-brand"
                     id="my-name" 
-                    href="#">Michael Cortez-Mejia
+                    href="#">Michael Cortez
                 </a>
                     <MenuIcon
                         id='menu' 
@@ -64,32 +63,32 @@ function Nav(props) {
                 <div className={`justify-content-end ${!menuOpen && 'collapse'} `} id="navbarNav"
                     role="tablist"
                 >
-                    <ul className="nav nav-tabs">
-                        <li className="nav-item">
-                            <a className={`nav-link mx-2 ${aboutSelected &&  'active'}`} 
+                    <ul className="nav ">
+                        <li className="nav-i">
+                            <a className={`nav-l mx-2 ${aboutSelected &&  'selected'}`} 
                                 aria-current="page"
                                 onClick={handleAbout}
                                 href="#">About Me
                             </a>
                         </li>
-                        <li className="nav-item">
-                            <a className={`nav-link mx-2 ${portfolioSelected && 'active'}`}
+                        <li className="nav-i">
+                            <a className={`nav-l mx-2 ${portfolioSelected && 'selected'}`}
                                 onClick={handlePortfolio}
                                 href="#">Portfolio
                             </a>
                         </li>
-                        <li className="nav-item">
-                            <a className={`nav-link mx-2 ${contactSelected && 'active'}`}
+                        <li className="nav-i">
+                            <a className={`nav-l mx-2 ${contactSelected && 'selected'}`}
                                 onClick={handleContact}
                                 href="#">Contact
                             </a>
                         </li>
-                        <li className="nav-item">
-                            <a className={`nav-link mx-2 ${resumeSelected && 'active'}`}
-                                onClick={handleResume}
-                                href={myResume}
-                                download="MichaelCortez-RESUME6.3.22.pdf"
-                                >Resume
+                        <li className="nav-i">
+                            <a 
+                                className={`nav-l mx-2 text-decoration-none ${resumeSelected && 'selected'} `}
+                                onClick={() => window.open(`${myResume}`, '_blank')}
+                                href="#"
+                            >Resume
                             </a>
                         </li>
                     </ul>
@@ -98,6 +97,5 @@ function Nav(props) {
         </nav>
     );
 }
-
 
 export default Nav;

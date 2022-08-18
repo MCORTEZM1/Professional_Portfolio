@@ -1,0 +1,52 @@
+#contact-container {
+    overflow: hidden;
+    margin-top: 13vw;
+}
+  
+#contact-form { 
+    display: flex;
+    flex-direction: column; 
+}
+
+#form-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#contact-div {
+    background-color: cadetblue;
+    width: 25rem;
+}
+
+@media (max-width: 14440px) {
+    #contact-div {
+      width: 25rem;
+    }
+    #contact-container {
+      overflow: hidden;
+      margin-top: 10vw;
+    }
+}
+
+@media (max-width: 768px) { 
+    #contact-div {
+        width: 25rem;
+        margin: 7rem 0;
+    }
+
+}
+
+@media (max-width: 400px){
+    #contact-div {
+        background-color: cadetblue;
+        width: 100%;
+        height: 100%;
+      }
+}
+
+@media (max-width: 375px) {
+    #contact-div {
+        height: 80%;
+    }
+}

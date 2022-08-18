@@ -37,13 +37,13 @@ const projects = [
     {
         name: 'Shop-Shop!',
         description: 'Shop-Shop is a mock full MERN stack E-Commerce progressive web application -PWA- using Redux-like techniques to manage a global-state',
-        tools: ['MongodDB', 'Express.js', 'React', 'Node.js', 'Apollo', 'GraphQL', 'Stripe', 'Service Workers', 'PWA'],
+        tools: [ 'Context-API', 'MongodDB', 'Express.js', 'React', 'Node.js', 'Apollo', 'GraphQL', 'Stripe', 'Service Workers', 'PWA'],
         image: ShopShop,
         deployed: 'https://shop-till-u-drop.herokuapp.com/'
     },
     {
         name: 'README Generator',
-        description: 'README Generator uses the command line interface to collect user data and generate a professional README.This generator solves the issue of having to re-create the wheel everytime the user needs to create a README file. ',
+        description: 'README Generator is a personal favorite as a developer. Here developers can use the command line interface to collect user data and generate a professional README.This generator solves the issue of having to re-create the wheel everytime the user needs to create a README file. ',
         tools: ['Node.js', 'JavaScript', 'ES6', 'Inquirer'],
         image: Coding,
         deployed: 'https://github.com/MCORTEZM1/README-Generator'

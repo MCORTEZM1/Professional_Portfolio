@@ -2,6 +2,7 @@ import React from 'react';
 import imgMe from '../../assets/images/ME.jpg';
 import Grid from '@mui/material/Grid'
 import Paper from '@mui/material/Paper';
+import './style.css';
 
 function About() {
 
@@ -17,14 +18,28 @@ function About() {
                             <h2 className="border-text">
                                 About Me
                             </h2>
-                            <div>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit maiores eum accusantium. Architecto ducimus earum nulla.
-                                    Accusantium non obcaecati aliquam cupiditate porro. Voluptate distinctio quis odit est, libero rem neque doloribus assumenda cumque earum nulla velit id doloremque dolor ipsa nam reprehenderit itaque officiis mollitia adipisci!
-                                </p>
                             <br/>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique suscipit possimus provident temporibus, alias illum perspiciatis excepturi quis accusantium, et quasi expedita quod? Non sapiente libero consequuntur quae, fuga nostrum.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ab excepturi doloribus aliquam. Consequuntur obcaecati laborum nisi vitae perspiciatis vero harum itaque similique voluptas. Facere quis hic modi et iste?
+                            <div>
+
+                               <p>
+                                    Thank you for visiting my portfolio! 
+                                    My name is Michael Cortez-Mejia... 
+                                </p> 
+                        
+                                <p>
+                                    Full stack web developer with a BA in sociology from UC Berkeley. Certified Full Stack Developer, 
+                                    by UC Berkeley in frontend and backend technologies such as HTML, CSS, JavaScript, MongoDb, 
+                                    Express, React, Node, Handlebars, NoSQL, SQL, mongoose, sequelize, Apollo, RESTful API, and GraphQL among others. 
+                                    Experience with fundamentals/tools following the MERN stack, MVC paradigm, TDD - Test Driven Development, and
+                                    OOP - Object Oriented Programming.
+                                    Additional experience developing progressive web applications using manifest.json coupled with service workers and IndexedDB.
+                                </p>
+
+                                <p>
+                                    Previous experience includes 10+ years in retail- client satisfaction and goal oriented. Fully committed to continuous learning and improvement. 
+                                    Fascinated by different coding technologies and using critical analysis to understand a problem and develop a solution. My background in understanding complex data
+                                    – from sociological to the back-end – and ability to implement complex solutions – to meet goals and satisfy clients –  makes me a solid asset to any software engineering team. 
+                                </p>
                             </div>
                         </section >
                     </Grid>

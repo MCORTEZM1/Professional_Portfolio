@@ -1,60 +1,61 @@
-nav ul {
-    list-style: none;
-
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Gravitas+One&display=swap');
 nav {
-    background-color: var(--primary-color);
     padding: auto;
     text-decoration: none;
-    color: #020202
+    color:#020202;
+    
 }
-
+#nav-bar {
+    background: linear-gradient( 
+        -50deg, 
+        var(--secondary-color), 
+        var(--primary-color),
+        rgba(37, 37, 37)
+    );
+}
+nav ul {
+    list-style: none;
+}
+.nav-i {
+    text-decoration: none;
+    display: inline-block;
+    font-family:'Gravitas One', cursive;
+}
+.nav-l {
+    text-decoration: none;
+    color: black
+}
+.nav-l:hover{
+    color: var(--primary-color);
+}
+.selected {
+    color: white;
+    font-size: large;
+}
+#my-name {
+    color: white;
+    font-weight: bold;
+    font-family: 'Aguafina Script', cursive;
+    font-size: xx-large;
+}
 #menu {
     display: none
 }
-
-#my-name {
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-.nav-a {
-    text-decoration: none;
-    font-variant: small-caps;
-    font-weight: bold;
-}
-
-.nav-item {
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-}
-
 @media (max-width: 768px) {
-    #menu {
-        display: inline
-      }
-      nav {
+    nav {
         background-color: var(--primary-color);
-        display: flex;
         max-width: auto;
         margin-bottom: 0;
-      }
-      #my-name {
-        margin: 0 auto;
-        color: var(--primary-color);
-        font-weight: bold;
-      }
-      .navLink {
-        text-decoration: none;
-      }
-      .nav-item {
-        display: block;
-      }
-      #navbar {
+    }
+    nav ul {
         justify-content: center;
-      }
-
-
+    }
+    #menu {
+        display: inline;
+    }
+    #my-name {
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: x-large;
+    }
 }

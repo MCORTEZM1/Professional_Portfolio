@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from '../ProjectCard';
+import './style.css';
 
 
 function Portfolio() {
@@ -13,11 +14,11 @@ function Portfolio() {
             >
                 <p
                     id='portfolio-intro'
-                >Welcome to my portfolio. Please take a look at some of 
-                the projects I have worked on. The top first 3 projects are
-                group projects, on my journey learning to code in UC Berkeley's
-                full stack developer bootcamp. If you wish to see more and to see how
-                I've grown as a developer, please visit my GitHub repository.
+                >In the beginning of my full-stack developer journey, this website started out solely as basic HTML and CSS... 
+                In it's current deployment, just 6 months later, its a single-page-application built using React for the front end.
+                Below are a handful of group and solo-projects developed during Berkeley's
+                full stack developer bootcamp. If you would like to see more examples and to see how
+                I've grown as a developer, please visit my GitHub repository!
                 </p>
             </div>
             <ProjectCard />

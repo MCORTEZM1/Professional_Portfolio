@@ -3,12 +3,8 @@ import About from './components/About';
 import Header from './components/Header';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
-import MenuDrawer from './components/Drawer';
-
-
 import Footer from './components/Footer';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React, { useState } from 'react';
 
@@ -43,7 +39,6 @@ function App() {
       {portfolioSelected && (
         <Portfolio />
       )}
-
       </main>
       <Footer />
     </div>
