@@ -18,12 +18,13 @@ body {
   background-image: url(./assets/images/abstract.jpg);
   background-attachment: fixed;
   background-position: bottom;
+  
 }
 
 #main {
   /* this is the main div that holds everything, including header and footer */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 a {

@@ -29,9 +29,11 @@ function App() {
         menuOpen={menuOpen}
         setMenuOpen={setMenuOpen}
       />
-      <main>
+      <main
+        id='main-container'
+      >
       {aboutSelected && (
-        <About/>
+        <About />
       )}
       {contactSelected && (
         <ContactForm />

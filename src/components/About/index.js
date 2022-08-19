@@ -9,10 +9,7 @@ function About() {
     return (
         <Paper elevation={7} className='about pb-4' id='about-container'>
                 <Grid container justifyContent={'center'} alignItems='center'>   
-                <img className="me" src={imgMe} alt="Picture of me" />
-
-                    <Grid item md={1}>
-                    </Grid>
+                {/* <img className="me" src={imgMe} alt="Picture of me" /> */}
                     <Grid item md={9}>
                         <section id="about-me" className="about-me">
                             <h2 className="border-text">

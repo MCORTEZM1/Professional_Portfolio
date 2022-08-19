@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Gravitas+One&family=Josefin+Slab:wght@600&display=swap');
+
 #about-container {
   overflow-y: visible;
-  margin-top: 15rem;
   background-color: rgba(240, 248, 255, 0.788);
+  margin-top: 15%;
 }
 #about-me {
   margin-top: 2rem;
@@ -16,12 +17,12 @@
   overflow: hidden;  
 }
 
-.me {
+/* .me {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
   position: relative;
-}
+} */
 
 @media (max-width: 768px) {
   #about-container {
@@ -36,5 +37,10 @@
 @media (max-width: 400px){
   #about-container {
     margin: 1rem 2rem 4rem 2rem;
+    height: 10rem;
+  }
+  #about-me { 
+    padding: 2rem;
+    margin-bottom: 5rem;
   }
 }
