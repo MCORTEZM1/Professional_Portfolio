@@ -63,4 +63,4 @@ Or click here: https://github.com/MCORTEZM1/Professional_Portfolio
 
 ## **Questions / Contact Me**
 
-Please reach out with any questions or concerns directly to: mcortezm@yahoo.comq
+Please reach out with any questions or concerns directly to: mcortezm@yahoo.com
