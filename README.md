@@ -18,6 +18,7 @@ My professional portfolio, built on React as a single-page-application.
 
 
 
+
 ![MOBILE](/screenshots/mobile-ph.PNG)
 ![DESKTOP](/screenshots/ph-desktop.PNG)
 
