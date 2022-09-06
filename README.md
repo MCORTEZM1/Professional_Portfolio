@@ -1,5 +1,8 @@
 # My Professional Portfolio
 
+My professional portfolio, built on React as a single-page-application. 
+
+
 ## **Description**
 
 - My portfolio is a continuous project that will include featured projects that I have worked on. New versions will include new projects and features. In its current state, users can visit my portfolio and view an about me section, portfolio section, and download my resume. Future versions will include backend handling for the contact form data. 
