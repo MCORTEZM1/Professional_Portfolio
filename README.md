@@ -1,6 +1,6 @@
 # My Professional Portfolio
 
-My professional portfolio, built on React as a single-page-application. 
+- My professional portfolio, built on React as a single-page-application. 
 
 
 ## **Description**
