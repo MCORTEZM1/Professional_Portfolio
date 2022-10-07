@@ -1,5 +1,8 @@
 # My Professional Portfolio
 
+- My professional portfolio, built on React as a single-page-application. 
+
+
 ## **Description**
 
 - My portfolio is a continuous project that will include featured projects that I have worked on. New versions will include new projects and features. In its current state, users can visit my portfolio and view an about me section, portfolio section, and download my resume. Future versions will include backend handling for the contact form data. 
@@ -55,4 +58,4 @@ Or click here: https://github.com/MCORTEZM1/Professional_Portfolio
 
 ## **Questions / Contact Me**
 
-Please reach out with any questions or concerns directly to: mcortezm@yahoo.comq
+Please reach out with any questions or concerns directly to: mcortezm@yahoo.com
