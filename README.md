@@ -11,10 +11,6 @@
 
 
 
-
-
-
-
 ![MOBILE](/screenshots/mobile-ph.PNG)
 ![DESKTOP](/screenshots/ph-desktop.PNG)
 
