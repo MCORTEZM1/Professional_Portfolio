@@ -9,6 +9,7 @@
 - This application was written using JavaScript, HTML, CSS, ES6, React, Material UI, bootstrap and deployed on Git Pages
 - The motivation behind my portfolio is to showcase my coding experience with a smooth user interface and various projects as examples. 
 - While building this site, my intention was to increase my understanding of React, styling React components, and building a single-page application, with martial UI, Bootstrap, and raw JSX. 
+- Future iterations of this project will include more modern detail and a database to hold direct messaging from clients to myself. 
 
 
 
