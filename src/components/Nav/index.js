@@ -54,7 +54,7 @@ function Nav(props) {
             <div className="container-fluid" id="navbar">
                 <a className="navbar-brand"
                     id="my-name" 
-                    href="#">Michael Cortez
+                    >Michael Cortez
                 </a>
                     <MenuIcon
                         id='menu' 
